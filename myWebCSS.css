@@ -49,12 +49,14 @@ header{
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-bottom:5%
+    margin-bottom:5px
 }
+
+.Phillips.name{margin-bottom:20px}
 
 .T{
     background-image: url(https://i.pinimg.com/originals/66/53/3e/66533e6a498d7e9c6f1515f8843b4042.jpg);
-    background-size: 150%;
+    background-size: 110%;
     background-position: center;
     color:white;
     background-blend-mode:darken;
@@ -77,11 +79,10 @@ header{
 }
 
 .S2{
-    background-image: url(https://th.bing.com/th/id/OIP.NRPWPJPka-hqhbShFL2xbQHaE8?pid=ImgDet&rs=1);
+    background-image: url(https://th.bing.com/th/id/OIP.7Do0jABGdWfdCy83Q5n-9QHaGY?pid=ImgDet&rs=1);
     background-size: 150%;
     background-position: center;
-    color:rgba(68, 105, 110, 1) ;
-    background-blend-mode:color-burn;
+    color:white ;
 }
 
 .P{
@@ -93,12 +94,10 @@ header{
 }
 
 .H{
-    background-image: url(https://th.bing.com/th/id/OIP.NRPWPJPka-hqhbShFL2xbQHaE8?pid=ImgDet&rs=1);
-    background-size: 150%;
+    background-image: url(https://i.pinimg.com/originals/59/4b/8d/594b8dbaaabc15a24683e4d306bcd411.jpg);
+    background-size: 100%;
     background-position: center;
-    color:rgba(68, 105, 110, 1) ;
-    background-blend-mode:color-burn;
-}
+    color:rgba(68, 105, 110, 1) ;}
 
 .I{
     background-image: url(https://th.bing.com/th/id/OIP.dlCCWPkQr0daSHhWs2JMYAHaDt?pid=ImgDet&rs=1);
@@ -123,19 +122,17 @@ header{
 }
 
 .I2{
-    background-image: url(https://th.bing.com/th/id/OIP.NRPWPJPka-hqhbShFL2xbQHaE8?pid=ImgDet&rs=1);
+    background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2023%2F02%2F16%2FEverything-Everywhere-All-At-Once-Stephanie-Hsu-021623_2.jpg);
     background-size: 150%;
     background-position: center;
-    color:rgba(68, 105, 110, 1) ;
-    background-blend-mode:color-burn;
+    color:black ;
 }
 
 .P2{
-    background-image: url(https://th.bing.com/th/id/OIP.NRPWPJPka-hqhbShFL2xbQHaE8?pid=ImgDet&rs=1);
+    background-image: url(https://th.bing.com/th/id/R.86753868556182c0f13e45a3062f41d7?rik=OJrfS4QHhR7SfQ&riu=http%3a%2f%2fwww.publicdomainpictures.net%2fpictures%2f80000%2fvelka%2fmulticolor-jigsaw.jpg&ehk=Cqn5DpyIXhXFfOO3xuMHwYY9FE098xYB5b5At%2blhDQM%3d&risl=&pid=ImgRaw&r=0);
     background-size: 150%;
     background-position: center;
-    color:rgba(68, 105, 110, 1) ;
-    background-blend-mode:color-burn;
+    color:white ;
 }
 
 .S3{
@@ -143,7 +140,6 @@ header{
     background-size: 150%;
     background-position: center;
     color: white ;
-    /* background-blend-mode:color-burn; */
 }
 
 
@@ -158,6 +154,8 @@ header{
     text-align: center;
     width: 500px;
     margin: auto;
+    height:300px
+
 }
 
 .para h3{
@@ -176,6 +174,16 @@ header{
     color:black
 }
 
+.para.S2 h3, .para.S2 h1{
+    background-color: white;
+    opacity: 0.7;
+    color:black
+}
+
+.para.I2 h3,.para.I2 h1{
+    padding-left: 35%;
+    font-size: smaller;
+}
 a {
     color: blue;
   }
@@ -198,7 +206,9 @@ a:active {
     font-size: 20px;
 }
     .para{
-width: 300px;}
+width: 300px;
+height: auto;
+}
 }
 @media screen and (max-width: 200px){
     button{
@@ -208,5 +218,6 @@ width: 300px;}
   }
   .para{
     width: 150px;
+    height:auto
   }
 }
