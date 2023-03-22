@@ -5,6 +5,11 @@ footer{
     bottom: 0;
     width: 100%
   }
+
+h1, h3{
+    padding:0;
+    margin:0
+}
   
 html {
     background-image: url(https://th.bing.com/th/id/R.8c9ede54851b20073e2e74f957f8b427?rik=uz4OXoC7xVI3zw&riu=http%3a%2f%2fimages2.fanpop.com%2fimages%2fphotos%2f3300000%2fCool-clouds-sunsets-and-sunrises-3334619-2560-1920.jpg&ehk=pe3yoOanGtQcaENhB0HiMDzVp0bwfzHIlQoyFUA%2fJJ8%3d&risl=&pid=ImgRaw&r=0);
@@ -41,11 +46,11 @@ button{
 }
 
 .T{
-    background-image: url(https://th.bing.com/th/id/OIP.NRPWPJPka-hqhbShFL2xbQHaE8?pid=ImgDet&rs=1);
+    background-image: url(https://i.pinimg.com/originals/66/53/3e/66533e6a498d7e9c6f1515f8843b4042.jpg);
     background-size: 150%;
     background-position: center;
-    color:rgba(68, 105, 110, 1) ;
-    background-blend-mode:color-burn;
+    color:white;
+    background-blend-mode:darken;
 }
 
 .E{
@@ -58,7 +63,7 @@ button{
 
 .S{
     background-image: url(https://facresources.com/assets/logos/fac_logo.png);
-    background-size: 150%;
+    background-size: 250%;
     background-position: center;
     color:rgba(255, 139, 40, 1) ;
     /* background-blend-mode:darken; */
@@ -73,11 +78,11 @@ button{
 }
 
 .P{
-    background-image: url(https://th.bing.com/th/id/OIP.NRPWPJPka-hqhbShFL2xbQHaE8?pid=ImgDet&rs=1);
+    background-image: url(https://th.bing.com/th/id/OIP.3hRLJQMAKkAvk9N9a6QOFQHaGK?pid=ImgDet&rs=1);
     background-size: 150%;
     background-position: center;
-    color:rgba(68, 105, 110, 1) ;
-    background-blend-mode:color-burn;
+    color:white ;
+    /* background-blend-mode:color-burn; */
 }
 
 .H{
@@ -89,27 +94,25 @@ button{
 }
 
 .I{
-    background-image: url(https://th.bing.com/th/id/OIP.NRPWPJPka-hqhbShFL2xbQHaE8?pid=ImgDet&rs=1);
+    background-image: url(https://th.bing.com/th/id/OIP.dlCCWPkQr0daSHhWs2JMYAHaDt?pid=ImgDet&rs=1);
     background-size: 150%;
     background-position: center;
-    color:rgba(68, 105, 110, 1) ;
-    background-blend-mode:color-burn;
+    color:white ;
 }
 
 .L{
-    background-image: url(https://th.bing.com/th/id/OIP.NRPWPJPka-hqhbShFL2xbQHaE8?pid=ImgDet&rs=1);
-    background-size: 150%;
+    background-image: url(https://th.bing.com/th/id/OIP.EDJ9xoErBbZqK2tExVoJfAHaHY?pid=ImgDet&rs=1);
+    background-size: 100%;
     background-position: center;
-    color:rgba(68, 105, 110, 1) ;
-    background-blend-mode:color-burn;
+    color:black ;
+    /* background-blend-mode:color-burn; */
 }
 
 .L2{
-    background-image: url(https://th.bing.com/th/id/OIP.NRPWPJPka-hqhbShFL2xbQHaE8?pid=ImgDet&rs=1);
+    background-image: url(https://smiletutor.sg/wp-content/uploads/2017/02/education-reform.jpg);
     background-size: 150%;
     background-position: center;
-    color:rgba(68, 105, 110, 1) ;
-    background-blend-mode:color-burn;
+    color:white ;
 }
 
 .I2{
@@ -151,7 +154,19 @@ button{
 }
 
 .para h3{
-    font-weight: 10;
+    font-weight: 400;
+}
+
+.para.T h3, .para.S h3, .para.S h1, .para.P h3, .para.P h1{
+    background-color: antiquewhite;
+    opacity: 0.8;
+    color:black
+}
+
+.para.L2 h3, .para.L2 h1{
+    background-color: antiquewhite;
+    opacity: 0.5;
+    color:black
 }
 
 a {
