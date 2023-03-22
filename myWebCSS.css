@@ -7,10 +7,12 @@ footer{
   }
   
 html {
-    /* box-sizing: border-box; */
-    background-image: url(https://mgnsw.org.au/wp-content/uploads/2013/06/MAGM-Collection-Treasures-from-the-Vault-1-scaled.jpg);
+    background-image: url(https://th.bing.com/th/id/R.8c9ede54851b20073e2e74f957f8b427?rik=uz4OXoC7xVI3zw&riu=http%3a%2f%2fimages2.fanpop.com%2fimages%2fphotos%2f3300000%2fCool-clouds-sunsets-and-sunrises-3334619-2560-1920.jpg&ehk=pe3yoOanGtQcaENhB0HiMDzVp0bwfzHIlQoyFUA%2fJJ8%3d&risl=&pid=ImgRaw&r=0);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
     /* zoom: 80%; */
-    /* background-position:center center; */
+    /* background-position; */
     /* background-size: 100%; */
 }
 
@@ -41,15 +43,104 @@ button{
 }
 
 .T{
-        /* background-color: pink; */
-        background-image: url(https://mgnsw.org.au/wp-content/uploads/2013/06/MAGM-Collection-Treasures-from-the-Vault-1-scaled.jpg);
-        background-size: 150%;
+    background-image: url(https://th.bing.com/th/id/OIP.NRPWPJPka-hqhbShFL2xbQHaE8?pid=ImgDet&rs=1);
+    background-size: 150%;
+    background-position: center;
+    color:rgba(68, 105, 110, 1) ;
+    background-blend-mode:color-burn;
 }
 
-.letter{
+.E{
+    background-image: url(https://th.bing.com/th/id/OIP.f-KJKz3edo5U0fENbZ_pGQHaF3?pid=ImgDet&rs=1);
+    background-size: 150%;
+    background-position: center;
+    color:rgb(255,255,255,0.8) ;
     background-blend-mode:darken;
-    color:white ;
-    font-weight: bold;
+}
+
+.S{
+    background-image: url(https://facresources.com/assets/logos/fac_logo.png);
+    background-size: 150%;
+    background-position: center;
+    color:rgba(255, 139, 40, 1) ;
+    /* background-blend-mode:darken; */
+}
+
+.S2{
+    background-image: url(https://th.bing.com/th/id/OIP.NRPWPJPka-hqhbShFL2xbQHaE8?pid=ImgDet&rs=1);
+    background-size: 150%;
+    background-position: center;
+    color:rgba(68, 105, 110, 1) ;
+    background-blend-mode:color-burn;
+}
+
+.P{
+    background-image: url(https://th.bing.com/th/id/OIP.NRPWPJPka-hqhbShFL2xbQHaE8?pid=ImgDet&rs=1);
+    background-size: 150%;
+    background-position: center;
+    color:rgba(68, 105, 110, 1) ;
+    background-blend-mode:color-burn;
+}
+
+.H{
+    background-image: url(https://th.bing.com/th/id/OIP.NRPWPJPka-hqhbShFL2xbQHaE8?pid=ImgDet&rs=1);
+    background-size: 150%;
+    background-position: center;
+    color:rgba(68, 105, 110, 1) ;
+    background-blend-mode:color-burn;
+}
+
+.I{
+    background-image: url(https://th.bing.com/th/id/OIP.NRPWPJPka-hqhbShFL2xbQHaE8?pid=ImgDet&rs=1);
+    background-size: 150%;
+    background-position: center;
+    color:rgba(68, 105, 110, 1) ;
+    background-blend-mode:color-burn;
+}
+
+.L{
+    background-image: url(https://th.bing.com/th/id/OIP.NRPWPJPka-hqhbShFL2xbQHaE8?pid=ImgDet&rs=1);
+    background-size: 150%;
+    background-position: center;
+    color:rgba(68, 105, 110, 1) ;
+    background-blend-mode:color-burn;
+}
+
+.L2{
+    background-image: url(https://th.bing.com/th/id/OIP.NRPWPJPka-hqhbShFL2xbQHaE8?pid=ImgDet&rs=1);
+    background-size: 150%;
+    background-position: center;
+    color:rgba(68, 105, 110, 1) ;
+    background-blend-mode:color-burn;
+}
+
+.I2{
+    background-image: url(https://th.bing.com/th/id/OIP.NRPWPJPka-hqhbShFL2xbQHaE8?pid=ImgDet&rs=1);
+    background-size: 150%;
+    background-position: center;
+    color:rgba(68, 105, 110, 1) ;
+    background-blend-mode:color-burn;
+}
+
+.P2{
+    background-image: url(https://th.bing.com/th/id/OIP.NRPWPJPka-hqhbShFL2xbQHaE8?pid=ImgDet&rs=1);
+    background-size: 150%;
+    background-position: center;
+    color:rgba(68, 105, 110, 1) ;
+    background-blend-mode:color-burn;
+}
+
+.S3{
+    background-image: url(https://th.bing.com/th/id/OIP.NRPWPJPka-hqhbShFL2xbQHaE8?pid=ImgDet&rs=1);
+    background-size: 150%;
+    background-position: center;
+    color:rgba(68, 105, 110, 1) ;
+    background-blend-mode:color-burn;
+}
+
+
+.letter{
+    font-weight:bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
@@ -69,13 +160,20 @@ a:hover {
 a:active {
     color: blue;
   }
-@media screen and (max-width: 991px) and (min-width: 400px) {
+@media screen and (max-width: 500px) and (min-width: 200px) {
   button{
     width:50px;
     height:50px;
     font-size: 20px;
 }
-
+}
+@media screen and (max-width: 200px){
+    button{
+      width:25px;
+      height:25px;
+      font-size: 10px;
+  }
+}
 /* 
 h1 {
     font-size: 40px;
