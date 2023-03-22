@@ -16,22 +16,20 @@ html {
     /* background-size: 100%; */
 }
 
-.para{
-    display:none
-}
-
 button{
     width:100px;
     height:100px;
     margin:2px;
     border-radius: 50%;
     font-size: 40px;
+    border-color: transparent;
+    /* box-shadow: inset 0px 0px 40px 40px #DBA632; */
 }
 
 .letters{
     /* justify-content: center; */
     vertical-align: middle;
-    margin-top: 20%;
+    margin-top: 70px;
     /* margin-bottom:30%  */
 }
 
@@ -145,6 +143,17 @@ button{
 
 }
 
+.para{
+    display:none;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+.para h3{
+    font-weight: 10;
+}
+
 a {
     color: blue;
   }
@@ -166,6 +175,8 @@ a:active {
     height:50px;
     font-size: 20px;
 }
+    .para{
+width: 300px;}
 }
 @media screen and (max-width: 200px){
     button{
@@ -173,7 +184,13 @@ a:active {
       height:25px;
       font-size: 10px;
   }
+  .para{
+    width: 150px;
+
+  }
 }
+
+
 /* 
 h1 {
     font-size: 40px;
