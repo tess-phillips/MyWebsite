@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myWebsite</title>
+    <link href="./myWebCSS.css" rel="stylesheet"/>
+  </head>
+
+<body>
+        <main>
+            <section class="letters">
+                <div class="Tess name">
+                    <button class = "T letter" id="T" onclick="toggle(`Tpara`)">T</button>
+                    <button class = "E letter" id="E" onclick="toggle(`Epara`)">E</button>
+                    <button class = "S letter" id="S" onclick="toggle(`Spara`)">S</button>
+                    <button class = "S2 letter" id="S2" onclick="toggle(`S2para`)">S</button>
+                </div>
+                <div class="Phillips name">
+                    <button class = "P letter" id="P" onclick="toggle(`Ppara`)">P</button>
+                    <button class = "H letter" id="H" onclick="toggle(`Hpara`)">H</button>
+                    <button class = "I letter" id="I" onclick="toggle(`Ipara`)">I</button>
+                    <button class = "L letter" id="L" onclick="toggle(`Lpara`)">L</button>
+                    <button class = "L2 letter" id="L2" onclick="toggle(`L2para`)">L</button>
+                    <button class = "I2 letter" id="I2" onclick="toggle(`I2para`)">I</button>
+                    <button class = "P2 letter" id="P2" onclick="toggle(`P2para`)">P</button>
+                    <button class = "S3 letter" id="S3" onclick="toggle(`S3para`)">S</button>
+                </div>
+            </section>
+            <section>
+                <div id="allinfo" class="allinfo">
+                    <div class ="para" id="Tpara">
+                        <h1>Words</h1>
+                    </div>
+                    <div class ="para" id="Epara">
+                        <h1>other words</h1>
+                    </div>
+                    <div class ="para" id="Spara">
+                        <h1>Words</h1>
+                    </div>
+                    <div class ="para" id="S2para">
+                        <h1>Words sdfgsdgf</h1>
+                    </div>
+                    <div class ="para" id="Ppara">
+                        <h1>Words</h1>
+                    </div>
+                    <div class ="para" id="Hpara">
+                        <h1>Words</h1>
+                    </div>
+                    <div class ="para" id="Ipara">
+                        <h1>Words</h1>
+                    </div>
+                    <div class ="para" id="Lpara">
+                        <h1>Words</h1>
+                    </div>
+                    <div class ="para" id="L2para">
+                        <h1>Words</h1>
+                    </div>
+                    <div class ="para" id="I2para">
+                        <h1>Words</h1>
+                    </div>
+                    <div class ="para" id="P2para">
+                        <h1>Words</h1>
+                    </div>
+                    <div class ="para" id="S3para">
+                        <h1>Words</h1>
+                    </div>
+                </div>
+            </section>
+        </main>
+    <footer>
+        <p> Visit my<a href="" target="_blank"> Github </a>for more.</p>
+        <p>Tess Phillips</p>
+    </footer>
+</body>
+<script src="myWebjs.js">
+    //function toggle
+    // click letter
+//     click letter
+// hide any other paras 
+// show the letter para
+
+
+
+
+
+    // function toggle(letterId) {
+    // const letter = document.getElementById(letterId);
+    // const infoblock = document.getElementById("allinfo");
+    // const infoblockcontent = infoblock.children;
+    // for (let i = 0; i < infoblockcontent.length; i++) {
+    //     const element = infoblockcontent[i];
+    //     if (element.id === letter) {
+    //         element.style.display = "block";
+    //     } else {
+    //         element.style.display = "none";
+    //         }
+    //     }
+    // }      
+
+    // infoblock.style.display = "none"
+    // if (letter.style.display === "none") {
+    // letter.style.display = "block";
+    // // btn.innerHTML="Hide"
+    // } else {
+    // letter.style.display = "none";
+    // // btn.innerHTML="Read more"
+</script>
+</html>
+
+
+
+<!-- <article class="card2">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Janja_Garnbret_2017_%28cropped%29.jpg/330px-Janja_Garnbret_2017_%28cropped%29.jpg" alt="Janja Garnbret">
+    <h3>A boulderer</h3>
+    <div class="text2" id="2">
+      <p>Janja Garnbret (born March 12, 1999) is a Slovenian rock climber and sport climber who has won multiple lead climbing and bouldering events at climbing competitions. In 2021, she became the first ever female Olympic gold medalist in sport climbing, and is widely regarded as one of the greatest competitive climbers of all time. She is also the world's first-ever female climber to onsight an 8c graded sport climbing route. As of the end of 2022, Garnbret had won the most IFSC gold medals of any competitive climber in history.</p>
+      <p>Click <a href="https://en.wikipedia.org/wiki/Janja_Garnbret">here</a> to read more about Janja.</p>
+    </div>
+    <div class="text2"><button id="22" onclick="toggle(`2`,this.id)">Hide</button></div>
+</article>
+
+<script>
+    let time=document.getElementById("current-time");
+
+    setInterval(()=>{
+        let d = new Date();
+        time.innerHTML = d.toLocaleTimeString();
+    },1000)
+
+
+</script> -->
