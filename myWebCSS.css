@@ -34,8 +34,15 @@ button{
 .letters{
     /* justify-content: center; */
     vertical-align: middle;
-    margin-top: 70px;
+    margin-top: 10px;
     /* margin-bottom:30%  */
+}
+
+header{
+    text-align: center;
+    color: white;
+    top: 0;
+    width: 100%
 }
 
 .Tess.name,.Phillips.name{
@@ -132,11 +139,11 @@ button{
 }
 
 .S3{
-    background-image: url(https://th.bing.com/th/id/OIP.NRPWPJPka-hqhbShFL2xbQHaE8?pid=ImgDet&rs=1);
+    background-image: url(https://mgnsw.org.au/wp-content/uploads/2013/06/MAGM-Collection-Treasures-from-the-Vault-1-scaled.jpg);
     background-size: 150%;
     background-position: center;
-    color:rgba(68, 105, 110, 1) ;
-    background-blend-mode:color-burn;
+    color: white ;
+    /* background-blend-mode:color-burn; */
 }
 
 
@@ -201,132 +208,5 @@ width: 300px;}
   }
   .para{
     width: 150px;
-
   }
 }
-
-
-/* 
-h1 {
-    font-size: 40px;
-    margin-top: 20px;
-    margin-bottom: 8%;
-    text-align: center;
-    color: white
-  }
-
-body {
-    font-family: sans-serif;
-    padding: 5%;
-    position: relative
-  }
-
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    justify-content: center;
-}   
-
-.card{
-    flex: 0 0 250px;
-    margin: 10px;
-    border: 1px solid yellow;
-    box-shadow: 2px 2px 6px 0px;
-    background-color: antiquewhite;
-    opacity: 80%;
-    }
-
-.card:hover{
-    opacity: 100%
-}
-
-.card img{
-    max-width: 100%;
-    opacity: 100%
-}
-
-.card .text{
-    padding: 0 20px 20px;
-}
-
-.card .text > button{
-    background: yellow;
-    border: 0;
-    color: black;
-    padding: 10px;
-    width: 100%;
-}
-/*
-
-
-Responsive layout - makes a one column layout instead of a two-column layout
-@media (max-width: 800px) {
-    .flex-item-right, .flex-item-left {
-      flex: 100%;
-    }
-  }
-  
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
-
-.blockleft,.blockright,.blockmiddle{
-    background-color: yellow;
-    width: 33%;
-    height: 350px;
-    word-wrap: break-word;
-    display: inline-block; 
-    *display: inline; 
-    zoom: 1; 
-    vertical-align: top;
-    padding: 10px
-}
-
-
-.level2block{
-    background-color: yellow;
-    width: 100%;
-    height: 500px;
-    word-wrap: break-word;
-}
-
-
-
-img{
-  opacity: 0.8
-}
-img:hover{
-  opacity: 1;
-}
-
-figure{
-  display: inline-block;
-}
-
-
-
-h3 {
-    font-size: 10px
-}
-
-h6{
-  text-align: center;
-  color: white;
-  font-size: 15px;
-}
-
-@media (max-width: 768px) {
-  .blockleft, .blockright, .blockmiddle {
-    width: 358px;
-  }
-
-}
-
-@media (max-width: 1199px) and (min-width: 769px) {
-  .blockleft, .blockright, .blockmiddle {
-      width: 358px;
-    }
-}*/
-/* @media screen and (max-width: 991px) and (min-width: 400px) { body { font-size: 12px; } }
-@media screen and (max-width: 400px) { body { font-size: 9px; } } */
