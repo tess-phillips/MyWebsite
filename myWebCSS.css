@@ -150,6 +150,10 @@ header{
     color:black
 }
 
+.para.S h3, .para.S h1{
+    font-size: smaller;
+}
+
 .para.L2 h3, .para.L2 h1{
     background-color: antiquewhite;
     opacity: 0.5;
@@ -159,7 +163,7 @@ header{
 .para.S2 h3, .para.S2 h1{
     background-color: white;
     opacity: 0.7;
-    color:black
+    color:black;
 }
 
 .para.I2 h3,.para.I2 h1{
