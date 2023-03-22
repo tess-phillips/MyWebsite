@@ -1,11 +1,3 @@
-footer{
-    text-align: center;
-    color: white;
-    position:fixed;
-    bottom: 0;
-    width: 100%
-  }
-
 h1, h3{
     padding:0;
     margin:0
@@ -16,9 +8,6 @@ html {
     width: 100%;
     height: 100%;
     background-size: cover;
-    /* zoom: 80%; */
-    /* background-position; */
-    /* background-size: 100%; */
 }
 
 button{
@@ -28,14 +17,11 @@ button{
     border-radius: 50%;
     font-size: 40px;
     border-color: transparent;
-    /* box-shadow: inset 0px 0px 40px 40px #DBA632; */
 }
 
 .letters{
-    /* justify-content: center; */
     vertical-align: middle;
     margin-top: 10px;
-    /* margin-bottom:30%  */
 }
 
 header{
@@ -75,7 +61,6 @@ header{
     background-size: 250%;
     background-position: center;
     color:rgba(255, 139, 40, 1) ;
-    /* background-blend-mode:darken; */
 }
 
 .S2{
@@ -90,7 +75,6 @@ header{
     background-size: 150%;
     background-position: center;
     color:white ;
-    /* background-blend-mode:color-burn; */
 }
 
 .H{
@@ -111,7 +95,6 @@ header{
     background-size: 100%;
     background-position: center;
     color:black ;
-    /* background-blend-mode:color-burn; */
 }
 
 .L2{
@@ -141,7 +124,6 @@ header{
     background-position: center;
     color: white ;
 }
-
 
 .letter{
     font-weight:bold;
@@ -184,6 +166,7 @@ header{
     padding-left: 35%;
     font-size: smaller;
 }
+
 a {
     color: blue;
   }
@@ -199,25 +182,34 @@ a:hover {
 a:active {
     color: blue;
   }
+
+footer{
+text-align: center;
+color: white;
+position:fixed;
+bottom: 0;
+width: 100%
+}
+
 @media screen and (max-width: 500px) and (min-width: 200px) {
-  button{
-    width:50px;
-    height:50px;
-    font-size: 20px;
-}
+    button{
+        width:50px;
+        height:50px;
+        font-size: 20px;
+    }
     .para{
-width: 300px;
-height: auto;
-}
+        width: 300px;
+        height: auto;
+    }
 }
 @media screen and (max-width: 200px){
     button{
       width:25px;
       height:25px;
       font-size: 10px;
-  }
-  .para{
-    width: 150px;
-    height:auto
-  }
+    }
+    .para{
+        width: 150px;
+        height:auto
+    }
 }
